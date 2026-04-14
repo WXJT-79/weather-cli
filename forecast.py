@@ -9,3 +9,5 @@ print("Today's forecast:")
 print(f"Condition: {condition}")
 print(f"Temperature: {temp}°F")
 
+humidity = random.randint(40, 100)
+print(f"Humidity: {humidity}%")
